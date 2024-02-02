@@ -1,0 +1,16 @@
+Coding parts to prototype
+Log to wandb
+LangChain basic pipeline
+LangChain with RAG
+RAG chunks properly
+Base prompt and specific prompts, proper tone
+Tool usage
+Summarizes
+safety
+can use voice inputs
+
+
+
+Research
+feasibility of all parts
+think through architecture of idea
