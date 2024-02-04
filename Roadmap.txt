@@ -1,5 +1,5 @@
 Coding parts to prototype
-Log to wandb
+DONE Log to wandb
 LangChain basic pipeline
 LangChain with RAG
 RAG chunks properly
@@ -9,6 +9,9 @@ Summarizes
 safety
 can use voice inputs
 
+
+Misc
+vscode better integration of copilot
 
 
 Research
