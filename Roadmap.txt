@@ -1,13 +1,18 @@
 Coding parts to prototype
+
 DONE Log to wandb
+DONE Basic OpenAPI example with new api
 LangChain basic pipeline
 LangChain with RAG
 RAG chunks properly
 Base prompt and specific prompts, proper tone
 Tool usage
 Summarizes
+	text
+	voice
 safety
 can use voice inputs
+familiarize yourself with update Open API
 
 
 Misc
