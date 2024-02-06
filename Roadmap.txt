@@ -1,8 +1,11 @@
 Coding parts to prototype
 
-DONE Log to wandb
-DONE Basic OpenAPI example with new api
-LangChain basic pipeline
+langchain: which parts I will likely need and want to prototype
+	function usage
+	RAG
+	storage
+langchain through docs with up-to-date examples
+Langchain basic pipeline
 LangChain with RAG
 RAG chunks properly
 Base prompt and specific prompts, proper tone
@@ -15,10 +18,16 @@ can use voice inputs
 familiarize yourself with update Open API
 
 
-Misc
+--- Misc
 vscode better integration of copilot
 
 
-Research
+--- Research
 feasibility of all parts
 think through architecture of idea
+
+
+--- Scrap
+DONE Basic log to wandb
+DONE Basic OpenAPI example with new api
+DONE LangChain basic example
