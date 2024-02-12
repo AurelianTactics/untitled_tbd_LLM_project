@@ -1,22 +1,70 @@
 Coding parts to prototype
 
-langchain: which parts I will likely need and want to prototype
+DONE langchain: document which parts I will likely need and want to prototype
+	prompt template
+	output parser
 	function usage
 	RAG
+		hooked up to chain
+		chunks properly
 	storage
-langchain through docs with up-to-date examples
-Langchain basic pipeline
-LangChain with RAG
-RAG chunks properly
-Base prompt and specific prompts, proper tone
-Tool usage
-Summarizes
-	text
-	voice
-safety
-can use voice inputs
-familiarize yourself with update Open API
+	memory
+		conversation buffer
+		entity memory
+	chains
+		basic pipeline
+	evaluation
+	embeddings/vector store/chunking
+	tools
+	debug methods (like debug chains)
+	agents
+	monitoring
 
+--- working	
+
+langchain through docs with up-to-date examples
+
+get more langchain examples working
+	completed: basic usage, prompt template, conversation simple memory
+
+plan how going to transition from working examples to simple app
+	Need to think out how the architect is done
+		the entrypoint, the outputs, how and what I'm going to be wrapping
+
+	need a prompt template
+		to do: work out your process for improving the prompt
+	need a simple rag example
+		maybe copy or reference a wikipedia page for working example
+		maybe a few related pages
+	then build the scaffolding around it?
+		need a temporary, simple UI
+			need to research th is
+		need logging
+		monitoring
+		evaluation
+	then can plan next steps
+
+--- questions
+for doing a doc split and save, where am I saving the intermediate results for permanence?
+
+
+--- to do
+misc other
+	monitoring
+		not sure if through langchain
+	Base prompt and specific prompts, proper tone
+	have aprocess for prompt improving
+	safety
+	Summarizes
+		text
+		voice
+
+familiarize yourself with update to OpenAI API
+
+
+
+--- Later
+can use voice inputs
 
 --- Misc
 vscode better integration of copilot
