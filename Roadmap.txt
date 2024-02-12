@@ -25,7 +25,7 @@ DONE langchain: document which parts I will likely need and want to prototype
 langchain through docs with up-to-date examples
 
 get more langchain examples working
-	completed: basic usage, prompt template, conversation simple memory
+	completed: basic usage, prompt template, conversation simple memory, retrieval
 
 plan how going to transition from working examples to simple app
 	Need to think out how the architect is done
