@@ -31,11 +31,17 @@ plan how going to transition from working examples to simple app
 	Need to think out how the architect is done
 		the entrypoint, the outputs, how and what I'm going to be wrapping
 
-	need a prompt template
-		to do: work out your process for improving the prompt
+	DONE need a prompt template
+		
 	need a simple rag example
 		maybe copy or reference a wikipedia page for working example
+			https://en.wikipedia.org/wiki/Little_Women#Characters
 		maybe a few related pages
+		index process
+			copy file
+			split
+			store
+				vector store and embeddings
 	then build the scaffolding around it?
 		need a temporary, simple UI
 			need to research th is
@@ -61,7 +67,11 @@ misc other
 
 familiarize yourself with update to OpenAI API
 
+need a base RAG for entities
+	then files for expanding entity info
+	then method for summarizing so LLM isn't pulling in a huge history
 
+process for improving prompts
 
 --- Later
 can use voice inputs
