@@ -22,16 +22,20 @@ DONE langchain: document which parts I will likely need and want to prototype
 
 --- working	
 
+
 langchain through docs with up-to-date examples
 
 get more langchain examples working
 	completed: basic usage, prompt template, conversation simple memory, retrieval
 
 plan how going to transition from working examples to simple app
-	Need to think out how the architect is done
+	DONE Need to think out how the architect is done
 		the entrypoint, the outputs, how and what I'm going to be wrapping
 
 	DONE need a prompt template
+
+	DONE data load / embedding utils template
+		DONE longer term / wishlist of features
 		
 	need a simple rag example
 		maybe copy or reference a wikipedia page for working example
@@ -49,6 +53,11 @@ plan how going to transition from working examples to simple app
 		monitoring
 		evaluation
 	then can plan next steps
+
+test out the chain
+	TEST integrates with prompt template
+	TEST integrates with embedding utils template
+
 
 --- questions
 for doing a doc split and save, where am I saving the intermediate results for permanence?

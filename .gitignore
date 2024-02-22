@@ -154,3 +154,4 @@ cython_debug/
 misc.yaml
 wandb/*
 .vscode/launch.json
+utils/little_women_example.txt

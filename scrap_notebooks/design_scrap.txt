@@ -1,0 +1,31 @@
+inputs
+typed prompt
+vocal prompt
+user requested period request for notification (ie let me know every week)
+
+
+outputs
+text and/or vocal response to any of the above
+
+
+
+System
+one of the prompts comes in
+
+general
+	hits the LLM
+		LLM decides on the action/tool/path
+			each tool/action/path can be expanded
+		LLM decides if not valid
+			returns some default / generic message
+
+specific
+	prompt about an entity (LLM says if about valid entity or not)
+		RAG the entity
+		pass the context in
+		initial version just RAG and context. later may be branch and tools and actions
+		LLM responds to prompt as best it can
+			errs on unsure don't know and says something nice about entity if can't answer the question
+	prompt not about the entity (LLM says not about a valid entity)
+		do not handle (obviously in the future could respond to many more things)
+		sends back a message why and what type of things can talk about
