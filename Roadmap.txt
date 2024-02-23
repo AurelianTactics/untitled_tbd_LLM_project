@@ -23,10 +23,12 @@ DONE langchain: document which parts I will likely need and want to prototype
 --- working	
 
 
-langchain through docs with up-to-date examples
+test out the chain
+	TEST integrates with prompt template
+	TEST integrates with embedding utils template
 
-get more langchain examples working
-	completed: basic usage, prompt template, conversation simple memory, retrieval
+when basic examples think through next steps to something more full fleshed
+
 
 plan how going to transition from working examples to simple app
 	DONE Need to think out how the architect is done
@@ -37,7 +39,7 @@ plan how going to transition from working examples to simple app
 	DONE data load / embedding utils template
 		DONE longer term / wishlist of features
 		
-	need a simple rag example
+	DONE BASICALLY PUT RETRIEVER IN PIPELINE need a simple rag example
 		maybe copy or reference a wikipedia page for working example
 			https://en.wikipedia.org/wiki/Little_Women#Characters
 		maybe a few related pages
@@ -54,9 +56,6 @@ plan how going to transition from working examples to simple app
 		evaluation
 	then can plan next steps
 
-test out the chain
-	TEST integrates with prompt template
-	TEST integrates with embedding utils template
 
 
 --- questions
@@ -64,7 +63,15 @@ for doing a doc split and save, where am I saving the intermediate results for p
 
 
 --- to do
+
+periodically can do:
+	langchain through docs with up-to-date examples
+
+	get more langchain examples working
+	completed: basic usage, prompt template, conversation simple memory, retrieval
+
 misc other
+	UI
 	monitoring
 		not sure if through langchain
 	Base prompt and specific prompts, proper tone
