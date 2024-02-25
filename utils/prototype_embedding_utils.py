@@ -70,6 +70,7 @@ def split_data_prototype(data: str):
 
 def get_vectorstore_prototype(all_splits):
     vectorstore = Chroma.from_documents(documents=all_splits, embedding=OpenAIEmbeddings())
+
     return vectorstore
 
 

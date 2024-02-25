@@ -13,6 +13,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.prompts import HumanMessagePromptTemplate
 from langchain_core.messages import SystemMessage
 from langchain_openai import ChatOpenAI
+from langchain import hub
 
 def get_basic_chat_template(system_content: str, human_message: str):
     basic_chat = ChatPromptTemplate.from_messages(
@@ -27,3 +28,12 @@ def get_basic_chat_template(system_content: str, human_message: str):
     )
 
     return basic_chat
+
+
+def get_hub_prompt(hub_pull_argument='rlm/rag-prompt'):
+    prompt = hub.pull(hub_pull_argument)
+    example_messages = prompt.invoke(
+        {"context": "filler context", "question": "filler question"}
+        ).to_messages()
+
+    return example_messages
