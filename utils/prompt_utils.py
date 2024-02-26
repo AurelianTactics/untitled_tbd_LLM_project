@@ -32,8 +32,9 @@ def get_basic_chat_template(system_content: str, human_message: str):
 
 def get_hub_prompt(hub_pull_argument='rlm/rag-prompt'):
     prompt = hub.pull(hub_pull_argument)
-    example_messages = prompt.invoke(
-        {"context": "filler context", "question": "filler question"}
-        ).to_messages()
+    # example_messages = prompt.invoke(
+    #     {"context": "filler context", "question": "filler question"}
+    #     ).to_messages()
 
-    return example_messages
+    #return example_messages
+    return prompt

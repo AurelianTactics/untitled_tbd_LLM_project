@@ -23,16 +23,11 @@ DONE langchain: document which parts I will likely need and want to prototype
 --- working	
 
 chain working example
-	stupid notebook for now until able to flesh it out a bit
-	uses theprompt template
-	uses the embeddingt template
-	makes the basic chain
+	DONE stupid notebook for now until able to flesh it out a bit
+	DONE TEST uses theprompt template
+	DONE TEST uses the embeddingt template
+	DONE makes the basic chain
 	uses some memory
-
-
-test out the chain
-	TEST integrates with prompt template
-	TEST integrates with embedding utils template
 
 when basic examples think through next steps to something more full fleshed
 	logging, monitoring, evaluation
@@ -70,6 +65,9 @@ plan how going to transition from working examples to simple app
 
 --- questions
 for doing a doc split and save, where am I saving the intermediate results for permanence?
+
+https://python.langchain.com/docs/use_cases/question_answering/quickstart
+	understand the retriever and format docs part better
 
 
 --- to do
@@ -115,3 +113,7 @@ think through architecture of idea
 DONE Basic log to wandb
 DONE Basic OpenAPI example with new api
 DONE LangChain basic example
+
+DONE test out the chain
+	TEST integrates with prompt template
+	TEST integrates with embedding utils template
