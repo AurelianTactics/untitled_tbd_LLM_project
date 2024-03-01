@@ -28,7 +28,12 @@ chain working example
 	DONE TEST uses the embeddingt template
 	DONE makes the basic chain
 	uses some memory
-
+		MEH BAD EXAMPLE use the last RAG example
+			https://python.langchain.com/docs/expression_language/cookbook/retrieval
+		got some memory working but kind of clunky. see if there is a better way to do it
+		stub out in questions all the differetn ways and best way to do it
+		
+	
 when basic examples think through next steps to something more full fleshed
 	logging, monitoring, evaluation
 	prompt improvement template
@@ -63,11 +68,15 @@ plan how going to transition from working examples to simple app
 
 
 
+
+
 --- questions
 for doing a doc split and save, where am I saving the intermediate results for permanence?
 
 https://python.langchain.com/docs/use_cases/question_answering/quickstart
 	understand the retriever and format docs part better
+
+for memory better to embed in prompt or in a conversation chain?
 
 
 --- to do
