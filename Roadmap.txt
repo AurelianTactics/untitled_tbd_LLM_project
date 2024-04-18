@@ -1,3 +1,20 @@
+4/18/24 notes
+
+Tried Vapi.ai and have notes on using that with this project
+Good tooling at Vapi
+Can build on parts of it
+Concerned about integration with client
+Concerned about how  well the underlying LLMs perform
+Vapi would be good for prototyipn and tyring parts but would be bound to that platform and does not ahve the customability of the entire thing here would have
+	example: can RAG with more customizability with langchain, can tool use better with langchain
+
+
+Winter 2024 notes:
+Finished the basic pipeline. Can see how this can be used and integrated.
+Can build it off of this way but likely some other tools that can be used
+Also not quite sure of feasibility of this project
+
+
 Coding parts to prototype
 
 DONE langchain: document which parts I will likely need and want to prototype
